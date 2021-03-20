@@ -1,17 +1,3 @@
-select * from dept_manager;
-
-select * from dept_titles_junction;
-
-select title_id, count(title_id) as "count" from employees
-group by title_id
-order by "count" desc;
-
-select * from salaries;
-
-select * from titles;
-
-select * from dept_emp;
-
 -- List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 select e.emp_no, e.last_name, e.first_name, e.sex, salaries.salary
