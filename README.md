@@ -10,13 +10,11 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 3. Data Analysis
 
-## Tasks
-
-#### Data Modeling
+## Data Modeling
 
 - Inspect the CSVs and sketch out an ERD of the tables.
 
-#### Data Engineering
+## Data Engineering
 
 * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
 
@@ -25,7 +23,7 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 * Import each CSV file into the corresponding SQL table. **Note** be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
-#### Data Analysis
+## Data Analysis
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
